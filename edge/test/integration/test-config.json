@@ -1,0 +1,12 @@
+{
+	"domains": {
+		"dev": "https://${org}-${env}.apigee.net"
+	},
+	"hdfc-cicd-newapi": {
+		"basepath": "/v1/newapi",
+		"product":"newapiProduct",
+		"app":"newapiApp",
+		"org":"${org}",
+		"env":"${env}"
+	}
+}

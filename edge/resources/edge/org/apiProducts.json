@@ -1,0 +1,29 @@
+[
+    {
+        "name": "newapiProduct",
+        "apiResources": [],
+        "approvalType": "auto",
+        "attributes": [
+            {
+                "name": "description",
+                "value": "newapiProduct"
+            },
+            {
+                "name": "access",
+                "value": "private"
+            }
+        ],
+        "description": "newapiProduct",
+        "displayName": "newapiProduct",
+        "environments": [
+            "${env}"
+        ],
+        "proxies": [
+            "hdfc-cicd-newapi"
+        ],
+        "quota": "10000",
+        "quotaInterval": "1",
+        "quotaTimeUnit": "month",
+        "scopes": []
+    } 
+]
